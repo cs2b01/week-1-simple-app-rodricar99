@@ -2,40 +2,40 @@
 
 		<head>
 			<title> login</title>
-			<div>MyChat</div>
+			<h1>MyChat</h1>
 			<script lenguaje="javascript">		
 					
-
-
 			
-
 			</script>
 
 		</head>
 
 		<body>
-		<input id="contra"   type="text" username > 
-		<br>                                                      
-		<input id="pass" type="password" password >
-		<br>
-		<input  class= "btn" id="acceso" type="submit" value="presione para entrar">
-		<script lenguage="javascript" >	
-				us1=document.getElementById("contra");
-				us2=document.getElementById("pass");
-				 
-				if (us1== us2){
-					
-					alert("no puede entrar");					
-
-					
-				}
-
+			<FORM name=form action="Rodrigo.HTML">
+		  <INPUT type="text" name=login> 
+		  <INPUT type="password" name=password>
 			
-
+		<br>
 		
+		<script lenguage="javascript" >	
+			function dale(){
+				if (document.form.password.value == document.form.login.value)
+					{ 
+        				alert("pasword o username incorrcto");
+   					 } 
+    				else
+					{ 
+        				 alert("entraste felicidades"); 
+    					} 
+					
+			
+		}
 		</script>
+			<INPUT onclick=dale() type=button value="ver si entraste o no" > 
+	
 		</body>
 
 
-
+</FORM>
 </html>
+
